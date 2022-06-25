@@ -11,6 +11,7 @@ import org.springframework.stereotype.Component
 @Component
 class DatabaseComponent {
 
+
     private val databaseUrl = System.getenv("DATABASE_URL")
     private val database: MongoClient = KMongo.createClient(databaseUrl)
 
