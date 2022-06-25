@@ -1,4 +1,4 @@
-# Marketplace Minimal API
+# Groceries Simple API using Spring Boot Kotlin
 
 ## Base url
 
